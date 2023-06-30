@@ -46,3 +46,7 @@ Notes are a special type of the data structures in the PKMS. They contain just t
 Rendering on a dedicated platform (e.g. a static website) is still preferred, however, by making the note format compatible with GitHub Markdown, the notes already provide value before such a rendering system is implemented. Furthermore, smaller projects (e.g. work project notes) for which a dedicated rendering platform is not intended could then also be created with this format and then be "rendered" on GitHub, which is enough for this purpose.
 
 Links are an essential part of the envisioned notes system as there is no metadata for orgnanisatino purposes, such as tags or hierarchies. Organisation and navigation through the notes happens exclusively through links. For that reason, there is a lot of emphasis on the efficient and consistent editing and maintenance of links.
+
+## Tools
+
+- For checking links with wiki.vim, see ':h wiki-graph-check-links'
